@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакти - Monster High</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+       <header>
+              <nav>
+                     <ul class="navigations">
+                            <li><a href="index.html">Головна</a></li>
+                            <li><a href="personazhi.html">Персонажі</a></li>
+                            <li><a href="galereya.html">Мої ляльки</a></li>
+                            <li><a href="shkola.html">Про Школу</a></li>
+                            <li><a href="kontakti.html">Контакти</a></li>
+                     </ul>
+              </nav>
+       </header>
+
+       <hr>
+
+       <main class="container">
+              <h1 class="text-center">Написати в Monster High</h1>
+
+              <form>
+                     <fieldset class="gap-4 grid">
+                            <legend>Щоб надіслати запит на вступ до школи, дайте відповідь на питання:</legend>
+                            <div class="grid"> 
+                                   <label for="name">Ім'я:</label>
+                                   <input type="text" id="name" placeholder="Введіть ім'я" required>
+                            </div>
+
+                            <div class="grid"> 
+                                   <label for="email">Пошта:</label>
+                                   <input type="email" id="email" placeholder="Введіть пошту" required>
+                            </div>
+
+                            <div class="grid">
+                                   <label for="title">Вибери улюбленого персонажа: </label>
+                                   
+                                   <div class="radio-column">
+                                          <div class="radio-option">
+                                                 <input type="radio" id="Драккулаура" value="Драккулаура" name="title">
+                                                 <label for="Драккулаура">Драккулаура</label>
+                                          </div>
+
+                                          <div class="radio-option">
+                                                 <input type="radio" id="Френкі" value="Френкі" name="title">
+                                                 <label for="Френкі">Френкі Штейн</label>
+                                          </div>
+
+                                          <div class="radio-option">
+                                                 <input type="radio" id="Клео" value="Клео" name="title">
+                                                 <label for="Клео">Клео де Ніл</label>
+                                          </div>
+
+                                          <div class="radio-option">
+                                                 <input type="radio" id="Клодін" value="Клодін" name="title">
+                                                 <label for="Клодін">Клодін Вульф</label>
+                                          </div>
+
+                                          <div class="radio-option">
+                                                 <input type="radio" id="Лагуна" value="Лагуна" name="title">
+                                                 <label for="Лагуна">Лагуна Блю</label>
+                                          </div>
+
+                                          <div class="radio-option">
+                                                 <input type="radio" id="Еббі" value="Еббі" name="title">
+                                                 <label for="Еббі">Еббі Бомінабл</label>
+                                          </div>
+
+                                          <div class="radio-option">
+                                                 <input type="radio" id="Гулія" value="Гулія" name="title">
+                                                 <label for="Гулія">Гулія Йелпс</label>
+                                          </div>
+
+                                          <div class="radio-option">
+                                                 <input type="radio" id="Спектра" value="Спектра" name="title">
+                                                 <label for="Спектра">Спектра Вондергейст</label>
+                                          </div>
+                                   </div>
+                            </div>
+
+
+                            <div class="grid">
+                                   <label for="card_number">Який ти монстр?</label>
+                                   <input type="text" id="card_number" placeholder="Введіть свій тип монстра" required>
+                            </div>
+
+                            <div class="grid">
+                                   <label for="СVV">Твій улюблений колір</label>
+                                   <input type="text" id="CVV" placeholder="Введіть колір" required>
+                            </div>
+
+                            <div class="grid">
+                                   <label for="date">Рік народження</label>
+                                   <input type="text" id="date" placeholder="РРРР" required>
+                            </div>
+
+                            <div class="grid">
+                                   <label for="message">Написати листа:</label>
+                                   <textarea id="message" rows="5" placeholder="Напишіть ваш лист тут..." required></textarea>
+                            </div>
+
+                            <button type="submit">Відправити</button>
+                     </fieldset>
+              </form>
+       </main>
+
+       <hr>
+
+       <footer>
+              <p class="text-center"> <i>Sonia Draculaura</i></p>
+       </footer>
+</body>
+</html>
+
